@@ -1,0 +1,359 @@
+<header class="navbar navbar-fixed-top navbar-default" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand" href="#">Fallout</a>
+    </div>
+    <nav class="collapse navbar-collapse" id="collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#"><button type="button" class="btn btn-primary navbar-btn">Sign In</button></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="text-uppercase">
+            <h2>Responsive Design +</h2>
+            <h2>Solid Code +</h2>
+            <h2>Batteries Included</h2>
+          </div>
+          <p class="text-muted">Phasellus in auctor magna. Suspendisse vel maximus nibh. Cras finibus rutrum purus eget aliquet.</p>
+          <button type="button" class="btn btn-default">Learn More</button>
+        </div>
+        <div class="col-md-7">
+          <figure><%= image_tag("ipad.png", alt: "", class: "img-responsive hidden-xs hidden-sm") %></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<section class="features">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="feature">
+          <i class="fa fa-expand"></i>
+          <h4>Responsive</h4>
+          <p>Vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature">
+          <i class="fa fa-code"></i>
+          <h4>Solid Code</h4>
+          <p>Vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature">
+          <i class="fa fa-eye"></i>
+          <h4>Retina Ready</h4>
+          <p>Vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio">
+  <section class="portfolio-heading">
+  <div class="container text-center">
+    <h2>Portfolio</h2>
+    <p>Vestibulum laoreet euismod sapien, at tristique ante pretium nec.</p>
+  </div>
+</section>
+  <div class="container">
+    <div class="text-center">
+      <div class="btn-group filter" role="group" aria-label="">
+        <button type="button" class="btn btn-default active" data-filter="*">All</button>
+        <button type="button" class="btn btn-default" data-filter=".code">Coding</button>
+        <button type="button" class="btn btn-default" data-filter=".design">Design</button>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="grid-item code">
+        <figure class="effect">
+          <a href="#"><%= image_tag("3.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Code</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="grid-item design">
+        <figure class="effect">
+          <a href="#"><%= image_tag("1.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Design</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="grid-item code">
+        <figure class="effect">
+          <a href="#"><%= image_tag("4.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Code</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="grid-item hidden-xs hidden-sm design">
+        <figure class="effect">
+          <a href="#"><%= image_tag("2.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Design</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="grid-item hidden-xs hidden-sm code">
+        <figure class="effect">
+          <a href="#"><%= image_tag("6.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Code</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="grid-item hidden-xs hidden-sm design">
+        <figure class="effect">
+          <a href="#"><%= image_tag("5.jpg", alt: "", class: "img-responsive") %></a>
+          <figcaption>
+            <div class="caption">
+              <h5 class="text-uppercase">Portfolio Item</h5>
+              <span class="text-muted">Design</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <section class="portfolio-btn">
+    <div class="container text-center">
+      <button type="button" class="btn btn-default">View Portfolio</button>
+    </div>
+  </section>
+</section>
+<section class="featurete">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-right">
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna. Suspendisse vel maximus nibh, auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+        <hr>
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna, vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+        <hr>
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna, vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <figure><%= image_tag("iphone.png", alt: "", class: "img-responsive") %></figure>
+      </div>
+      <div class="col-md-4 hidden-xs hidden-sm text-left">
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna, vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+        <hr>
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna, vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+        <hr>
+        <div class="micro-feature">
+          <h4 class="text-uppercase">Feature</h4>
+          <p>Phasellus in auctor magna, vestibulum laoreet euismod sapien, at tristique ante pretium nec. Phasellus in auctor magna. Suspendisse vel maximus nibh.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="banner-ad feature-ad">
+  <div class="container text-center">
+    <p>Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum. <button type="button" class="btn btn-default">Buy Now</button></p>
+  </div>
+</section>
+<section class="blog">
+  <div class="container">
+    <h2 class="text-center">Latest Articles From The Blog</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <article class="thumbnail">
+          <figure>
+            <div class="blog-container effect-img">
+              <a href="#"><%= image_tag("7.jpg", alt: "", class: "img-responsive") %></a>
+            </div>
+            <figcaption class="caption">
+              <span>30 Jun 2015 | <a href="#">Zoe Nichols</a></span>
+              <h4 class="text-uppercase">Blog Article</h4>
+              <p>Nunc eu metus interdum ligula viverra rutrum, Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum. Phasellus in auctor magna. Suspendisse vel maximus nibh, auctor magna. Suspendisse vel maximus nibh.</p>
+              <hr>
+              <span class="text-muted">Fiction, Space, Sci-fi</span>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="thumbnail">
+          <figure>
+            <div class="blog-container effect-img">
+              <a href="#"><%= image_tag("9.jpg", alt: "", class: "img-responsive") %></a>
+            </div>
+            <figcaption class="caption">
+              <span>30 Jun 2015 | <a href="#">Zoe Nichols</a></span>
+              <h4 class="text-uppercase">Blog Article</h4>
+              <p>Nunc eu metus interdum ligula viverra rutrum, Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum. Phasellus in auctor magna. Suspendisse vel maximus nibh, auctor magna. Suspendisse vel maximus nibh.</p>
+              <hr>
+              <span class="text-muted">Fiction, Space, Sci-fi</span>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="thumbnail">
+          <figure>
+            <div class="blog-container effect-img">
+              <a href="#"><%= image_tag("8.jpg", alt: "", class: "img-responsive") %></a>
+            </div>
+            <figcaption class="caption">
+              <span>30 Jun 2015 | <a href="#">Zoe Nichols</a></span>
+              <h4 class="text-uppercase">Blog Article</h4>
+              <p>Nunc eu metus interdum ligula viverra rutrum, Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum. Phasellus in auctor magna. Suspendisse vel maximus nibh, auctor magna. Suspendisse vel maximus nibh.</p>
+              <hr>
+              <span class="text-muted">Fiction, Space, Sci-fi</span>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
+  </div>
+  <section class="read-more">
+    <div class="container text-center">
+      <button type="button" class="btn btn-default">Read More</button>
+    </div>
+  </section>
+</section>
+<section class="twitter-updates">
+  <div class="container">
+    <div class="owl-slider">
+      <h2 class="text-center">Twitter Updates</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="owl-item text-center">
+          <p>Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.</p>
+          <span>30 June 2015 by <a href="#">@someone</a></span>
+        </div>
+        <div class="owl-item text-center">
+          <p>Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.</p>
+          <span>30 June 2015 by <a href="#">@someone</a></span>
+        </div>
+        <div class="owl-item text-center">
+          <p>Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.</p>
+          <span>30 June 2015 by <a href="#">@someone</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="banner-ad ad-twitter">
+  <div class="container text-center">
+    <p>Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.  <button type="button" class="btn btn-default">Contact</button></p>
+  </div>
+</section>
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="footer-logo">Fallout</h3>
+        <p class="text-muted footer-logo-desc">Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.</p>
+        <hr>
+        <div class="social">
+          <h4>We Are Social On</h4>
+          <ul class="list-inline icons">
+            <li><a href="#"><i class="fa fa-bitbucket"></i></a></li>
+            <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4>Popular Posts</h4>
+        <div class="micro">
+          <h5 class="text-uppercase">Standard Post</h5>
+          <p>by <a href="#">Zoe Nichols</a> <span>on June 22, 2015</span></p>
+          <hr>
+        </div>
+        <div class="micro">
+          <h5 class="text-uppercase">Standard Post</h5>
+          <p>by <a href="#">Zoe Nichols</a> <span>on June 22, 2015</span></p>
+          <hr>
+        </div>
+        <div class="micro">
+          <h5 class="text-uppercase">Standard Post</h5>
+          <p>by <a href="#">Zoe Nichols</a> <span>on June 22, 2015</span></p>
+          <hr>
+        </div>
+        <div class="micro">
+          <h5 class="text-uppercase">Standard Post</h5>
+          <p>by <a href="#">Zoe Nichols</a> <span>on June 22, 2015</span></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4>Featured Work</h4>
+        <ul class="list-inline featured-work">
+          <li><figure class="effect"><%= image_tag("1.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("2.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("3.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("4.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("5.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("6.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("4.jpg", alt: "") %><figcaption></figcaption></figure></li>
+          <li><figure class="effect"><%= image_tag("3.jpg", alt: "") %><figcaption></figcaption></figure></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4>Contact Info</h4>
+        <p class="text-muted">Phasellus in auctor magna. Ut sed volutpat nisi. Nunc eu metus interdum ligula viverra rutrum.</p>
+        <div class="contact-info">
+          <div><p><i class="fa fa-phone"></i>+55 2 5182-6942</p></div>
+          <div><p><i class="fa fa-envelope"></i>contact@fallout.com</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-footer">
+    <div class="container">
+    <p>&copy; Copyright 2015. All Rights Reserved. <span class="pull-right hidden-xs">Made with <i class="fa fa-heart"></i> by Marlos Pomin.</span></p>
+    </div>
+  </div>
+</footer>
