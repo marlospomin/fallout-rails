@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use SCSS for stylesheets
@@ -19,6 +21,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Support for FontAwesome icons
 gem 'font-awesome-sass', '~> 4.5.0'
+
+# Support for cross-platform
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
