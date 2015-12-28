@@ -194,6 +194,11 @@ h1, h2, h3, h4, h5, h6 {
   .btn-default {
     border-color: $white;
     color: $white;
+    
+    &:active {
+      background-color: $gray-dark;
+      color: $white;
+    }
 
     &:focus, &:hover {
       background-color: $white;
