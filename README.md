@@ -1,22 +1,23 @@
 # About
 
-Fallout-rails is a reworked version of my previews repo [Fallout](https://github.com/marlospomin/fallout) a front-end HTML5/CSS3 template.
-
-# Current State
-
-100% Static, nothing else to say.
+Fallout-rails is a reworked version of my previews repo [Fallout](https://github.com/marlospomin/fallout) a front-end template, check it out!
 
 # Usage
 
 1. Fork/Clone.
 2. Open up terminal/cmd.
-3. cd the project directory.
-4. rails server.
-5. Done.
+3. Navigate to the project directory.
+4. Type *rails server*.
+
+# DEMO
+
+### Note: Ad-Block *might* remove two sections from the page for some reason.
+
+Click [here](http://fallout-rails.herokuapp.com)
 
 # Contribute
 
-Feel free contribute with your skills and help make this project come to life.
+Feel free contribute with your skills and help improve this project.
 
 ## How to contribute
 
